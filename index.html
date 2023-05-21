@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johan Elber">
+    <meta name="description" content="Proyecto FrontEnd Gentium">
+    <title>Gentium Sitio Web</title>
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__contenido contenedor">
+            <a href="/" class="logo">
+                Gentium.
+            </a>
+            <div class="header-right">
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="#" class="nav__link">Home</a></li>
+                        <li><a href="#services" class="nav__link">Services</a></li>
+                        <li><a href="#works" class="nav__link">Works</a></li>
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#client" class="nav__link">Client</a></li>
+                        <li><a href="#blog" class="nav__link">Blog</a></li>
+                        <li><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="linea1"></div>
+                    <div class="linea2"></div>
+                    <div class="linea3"></div>
+                </div>
+                <div class="buscador">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HEADER FIN -->
+    <!-- INICIO -->
+    <section class="inicio">
+        <div class="overlay"></div>
+        <div class="inicio__fondo">
+            <picture>
+                <img loaging="lazy" width="auto" height="auto" src="img/fondoMessiDesktop-min.png" alt="Messi Desktop" class="messiDesktop">
+                <img loaging="lazy" width="auto" height="auto" src="img/fondoMessiMobile-min.png" alt="Messi Mobile" class="messiMobile">
+            </picture>
+        </div>
+        <div class="inicio__contenido contenedor">
+            <div class="inicio__info">
+                <h1 class="inicio__titulo">We're a digital agency.</h1>
+                <a href="#" class="btn btn__inicio">Getting Started</a>
+            </div>
+            <div class="inicio__card">
+                <div class="card">
+                    <div class="card__icono">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h4>Future Vision.</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__icono">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h4>Product Design.</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__icono">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <div class="card__descripcion">
+                        <h4>Inovative Solutions.</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN INICIO -->
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="contenedor">
+            <div class="seccion__titulo">
+                <h2>Services.</h2>
+                <h4>WE WORK WITH YOU, NOT FOR YOU</h4>
+            </div>
+            <div class="services__contenido">
+                <div class="service">
+                    <h4>Digitale strategy</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>UX Design</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Product Design</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Content Strategy</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Design & Concept</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Social Media</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Media Planing</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>Brand Identity</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <h4>SEO Optimization</h4>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES FIN -->
+
+    <!-- WORKS -->
+    <section class="works" id="works">
+        <div class="works__header contenedor">
+            <div class="seccion__titulo">
+                <h2>Works.</h2>
+                <h4>THIGS WE'VE MADE</h4>
+            </div>
+            <div class="works__all">
+                <a href="#" class="btn btn__works">View All</a>
+            </div>
+        </div>
+        <div class="works__slider contenedor">
+            <!-- Slider main container -->
+            <div class="swiper mySwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/messi_filtro-min.jpg" alt="Work 1">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/cristiano_filtro-min.jpg" alt="Work 2">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/neymar_filtro-min.jpg" alt="Work 3">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/kaka_filtro-min.jpg" alt="Work 4">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/iniesta_filtro-min.jpg" alt="Work 5">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/xavi_filtro-min.jpg" alt="Work 6">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/debruyne_filtro-min.jpg" alt="Work 7">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/works/aguero_filtro-min.jpg" alt="Work 8">
+                        </picture>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- WORKS FIN -->
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="contenedor">
+            <div class="about__header">
+                <div class="seccion__titulo">
+                    <h2>About.</h2>
+                    <h4>WE'RE MORE THAN A DIGITAL AGENCY</h4>
+                </div>
+                <div class="about__info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam exercitationem vel reprehenderit nulla dolore corporis nemo, sed quaerat quia temporibus.</p>
+                </div>
+            </div>
+            <div class="about__contenido">
+                <div class="about__card">
+                    <div class="about__img">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/about/campnou_filtro-min.jpg" alt="About 1">
+                        </picture>
+                        <div class="about__descripcion">
+                            <h4>Teamwork</h4>
+                            <p>Commited and creative</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__card">
+                    <div class="about__img">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/about/campnou2_filtro-min.jpg" alt="About 2">
+                        </picture>
+                        <div class="about__descripcion">
+                            <h4>Philosophy</h4>
+                            <p>Trust pays off</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__card">
+                    <div class="about__img">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/about/campnou3_filtro-min.jpg" alt="About 3">
+                        </picture>
+                        <div class="about__descripcion">
+                            <h4>Office</h4>
+                            <p>Lima, Perú</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__grid--info">
+                <div class="about__grid--card">
+                    <h3>Who are are</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptate molestiae. Neque cupiditate distinctio impedit repellat aperiam odio provident, rem nesciunt necessitatibus ratione iste quibusdam nam!</p>
+                </div>
+                <div class="about__grid--card">
+                    <h3>Our philosophy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptate molestiae. Neque cupiditate distinctio impedit repellat aperiam odio provident, rem nesciunt necessitatibus ratione iste quibusdam nam!</p>
+                </div>
+                <div class="about__grid--card">
+                    <h3>How we work</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptate molestiae. Neque cupiditate distinctio impedit repellat aperiam odio provident, rem nesciunt necessitatibus ratione iste quibusdam nam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT FIN -->
+
+    <!-- SAY CLIENT -->
+    <section class="client" id="client">
+        <div class="contenedor">
+            <div class="client__contenido">
+                <div class="client__img">
+                    <div class="client__img--img">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/messiClienteFiltro-min.jpg" alt="Client Messi">
+                        </picture>
+                    </div>
+                </div>
+                <div class="client__info">
+                    <div class="seccion__titulo">
+                        <h2>What Clients Say.</h2>
+                        <h4>WE'RE MORE THAN A DIGITAL AGENCY</h4>
+                    </div>
+                    <div class="client__descripcion">
+                        <p>We are motivated by the satisfaction of our clients. Put your trust in us and share ir our growth Asset Management is made up of a team of expert, commited and experienced people with a passion for financial markets. Our goal is to achieve continous and sustainable growth of our clients.</p>
+                        <div class="client__descripcion--autor">
+                            <h4>LIONEL MESSI, UX DESIGNER</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SAY CLIENT FIN -->
+
+    <!-- LASTEST NEWS -->
+    <section class="lastest-news" id="blog">
+        <div class="seccion__titulo contenedor">
+            <h2>Lastest News.</h2>
+            <h4>CHECK OUT SOME OF OUR THINKING</h4>
+        </div>
+        <div class="lastest__slides">
+            <!-- Slider main container -->
+            <div class="swiper mySwiper contenedor">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/messi_filtro-min.jpg" alt="Lastest 1">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/cristiano_filtro-min.jpg" alt="Lastest 2">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/neymar_filtro-min.jpg" alt="Lastest 3">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/kaka_filtro-min.jpg" alt="Lastest 4">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/iniesta_filtro-min.jpg" alt="Lastest 5">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/xavi_filtro-min.jpg" alt="Lastest 6">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/debruyne_filtro-min.jpg" alt="Lastest 7">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img loaging="lazy" width="200" height="300" src="img/clients/aguero_filtro-min.jpg" alt="Lastest 8">
+                        </picture>
+                        <div class="slide__info">
+                            <div class="slide__info--info">
+                                <h4>Carrers</h4>
+                                <h2>Winning tactics for a new digital agency</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- LASTEST NEWS FIN -->
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <div class="contact__top--bg">
+            <div class="contact__contenido--top contenedor">
+                <ul class="social__links">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <div class="contact__titulo">
+                    <h2>Let's Talk?</h2>
+                </div>
+                <div class="contact__enlace">
+                    <a href="#" class="btn btn__contacto">Make an enquiry!</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact__buttom--bg">
+            <div class="contact__contenido--buttom contenedor">
+                <div class="contact__info">
+                    <h4>Lima.</h4>
+                    <p>+51 987 465 421</p>
+                </div>
+                <div class="contact__info">
+                    <h4>Perú</h4>
+                    <p>+51 937 445 178</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT FIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__contenido contenedor">
+            <div class="footer__left">
+                <p>2023 &copy; <span>Gentium</span>. All rights reserved.</p>
+            </div>
+            <div class="footer__right">
+                <ul class="lista__condiciones">
+                    <li>Terms of use</li>
+                    <li>Privacity Policy</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER FIN -->
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- APP JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
